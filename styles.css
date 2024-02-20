@@ -1,46 +1,36 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
 }
 
-nav {
+
+.main {
+  min-height: 100vh;
+}
+.navBar {
+  background-color:chocolate;
+
+}
+
+.navUl {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 0;
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
+.pink {
+  color:pink;
+
 }
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+.purple{
+  color: blueviolet;
 }
 
-main {
-  padding: 1rem;
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.githubIcon {
+height: 10%;
+width: 10%;
 }
