@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:peru;
 }
 
 
@@ -11,6 +13,14 @@ body {
 
 }
 
+a:link {
+color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 .navUl {
   display: flex;
   flex-direction: row;
@@ -19,16 +29,43 @@ body {
   list-style-type: none;
   padding-inline-start: 0;
   margin-top: 0;
+  padding: 6px;
+}
+
+.H1 {
+  padding-left: 10%;
 }
 
 .pink {
   color:pink;
-
+  padding-left: 15%;
 }
 
 .purple{
   color: blueviolet;
+  padding-left: 15%;
 }
+
+.p3 {
+  padding-left: 15%;
+}
+
+footer {
+  min-height: 20%;
+  background-color: chocolate;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.pFooter {
+  font-size: 21px;
+text-align: center;
+
+
+}
+
+
 
 .githubIcon {
 height: 10%;
